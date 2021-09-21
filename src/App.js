@@ -33,7 +33,7 @@ const App = () => {
         setCountryInfo(data);
       });
   }, []);
-
+//hedllo
   useEffect(() => {
     const getCountriesData = async () => {
       fetch("https://disease.sh/v3/covid-19/countries")
